@@ -19,12 +19,12 @@
 /*-------------------------------------------------------------------------*/
 
 #ifdef  LORAN
-#include "f:\projet\lib386\lib_sys\adeline.h"
-#include "f:\projet\lib386\lib_sys\lib_sys.h"
-#include "f:\projet\lib386\lib_svga\lib_svga.h"
-#include "f:\projet\lib386\lib_menu\lib_menu.h"
-#include "f:\projet\lib386\lib_cd\lib_cd.h"
-#include "f:\projet\lib386\lib_3d\lib_3d.h"
+#include "c:\lba1\lib386\lib_sys\adeline.h"
+#include "c:\lba1\lib386\lib_sys\lib_sys.h"
+#include "c:\lba1\lib386\lib_svga\lib_svga.h"
+#include "c:\lba1\lib386\lib_menu\lib_menu.h"
+#include "c:\lba1\lib386\lib_cd\lib_cd.h"
+#include "c:\lba1\lib386\lib_3d\lib_3d.h"
 
 #include        <stdlib.h>
 #include        <string.h>
@@ -74,8 +74,8 @@ WORD    QuickMessage = FALSE ;
 #define PATH_TXT        ""
 #define PATH_NAR        ""
 #else
-#define PATH_TXT        "f:\\projet\\lba\\text\\"
-#define PATH_NAR        "f:\\projet\\lba\\samples\\dial\\"
+#define PATH_TXT        "c:\\lba1\\lba\\text\\"
+#define PATH_NAR        "c:\\lba1\\lba\\samples\\dial\\"
 #endif
 
 #ifdef	CDROM

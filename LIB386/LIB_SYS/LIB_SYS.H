@@ -5,9 +5,9 @@
 		▀▀  ▀ ▀▀▀▀▀ ▀▀    ▀▀▀▀▀ ▀▀▀▀▀ ▀▀  ▀ ▀▀  ▀ ▀▀▀▀
  *══════════════════════════════════════════════════════════════════════════*/
 
-#pragma	library	("f:\projet\lib386\lib_sys\lib_sys.lib")
+#pragma	library	("c:\lba1\lib386\lib_sys\lib_sys.lib")
 
-#include	"f:\projet\lib386\lib_sys\dll.h"
+#include	"c:\lba1\lib386\lib_sys\dll.h"
 
 extern	volatile	UWORD	Key	;	/* scan code keyboard */
 

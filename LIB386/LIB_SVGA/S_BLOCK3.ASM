@@ -8,7 +8,7 @@
 
 				.data
 
-			include	f:\projet\lib386\lib_svga\svga.ash
+			include	c:\lba1\lib386\lib_svga\svga.ash
 
 ;----------------------------------------------------------------------------
 				.code

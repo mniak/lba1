@@ -1,4 +1,4 @@
-#pragma	library ("f:\projet\lib386\lib_menu\lib_menu.lib")
+#pragma	library ("c:\lba1\lib386\lib_menu\lib_menu.lib")
 
 #define	SELECT_NO_FLAG		0
 #define SELECT_SHOW_EXT		1

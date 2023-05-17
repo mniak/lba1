@@ -1,4 +1,4 @@
-#pragma	library	("f:\projet\lib386\lib_samp\lib_wave.lib")
+#pragma	library	("c:\lba1\lib386\lib_samp\lib_wave.lib")
 
 typedef	struct
 	{

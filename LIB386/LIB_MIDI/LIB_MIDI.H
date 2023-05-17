@@ -1,6 +1,6 @@
-#pragma	library ("f:\projet\lib386\lib_midi\lib_midi.lib")
+#pragma	library ("c:\lba1\lib386\lib_midi\lib_midi.lib")
 
-#include "f:\projet\lib386\lib_midi\ail32.h"      // Audio Interface Library API function header
+#include "c:\lba1\lib386\lib_midi\ail32.h"      // Audio Interface Library API function header
 
 extern	char	Midi_Driver[_MAX_PATH] ;
 extern  char	Midi_Driver_Name[80] ;
