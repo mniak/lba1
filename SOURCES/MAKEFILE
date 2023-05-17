@@ -1,26 +1,6 @@
 # name the compiler
-!ifdef %HOME
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-CL = c:\watcom\binb\Wcl386
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-CL = c:\watcom\binb\Wcl386
-WL = c:\watcom\binb\wlib
-!endif
-!else
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-CL = c:\watcom\binb\Wcl386
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-CL = c:\watcom\binb\Wcl386
-WL = c:\watcom\binb\wlib
-!endif
-!endif
-
+CC = wcc386
+WL = wlib
 ASM = ml
 
 !ifeq WATCOM9 yes
