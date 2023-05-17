@@ -1,22 +1,6 @@
 # name the compiler
-!ifdef %HOME
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-WL = c:\watcom\binb\wlib
-!endif
-!else
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-WL = c:\watcom\binb\wlib
-!endif
-!endif
-
+CC = wcc386
+WL = wlib
 ASM = ml
 
 !ifeq WATCOM9 yes
@@ -26,7 +10,7 @@ CFLAGS = /oeaxt /zp2 /5s /zq /s
 !endif
 LFLAGS = /c /q /b /n
 #AFLAGS  = /m2 /mx /z /zi /t /jMASM51 /jQUIRKS
-AFLAGS = /Cx /Zm /c /W0 /Sa /DNoLanguage=SYSCALL /Djumps=;
+AFLAGS = /omf /Cx /Zm /c /W0 /Sa /DNoLanguage=SYSCALL /Djumps=;
 
 OBJETS1  = mixer.obj mixer_i.obj
 OBJETS2  =
