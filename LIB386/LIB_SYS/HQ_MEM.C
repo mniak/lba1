@@ -58,7 +58,7 @@ void	HQM_Clear_Memory()
 /*══════════════════════════════════════════════════════════════════════════*/
 // alloue un bloc de memoire
 
-LONG	HQM_Alloc( ULONG size, void **ptr )
+LONG	HQM_Alloc( ULONG size, char **ptr )
 {
 	if( !Ptr_HQM_Memory )
 	{

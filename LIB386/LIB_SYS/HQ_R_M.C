@@ -19,7 +19,7 @@ void	Expand( void *ptrsourcecomp, void *ptrblocdest, ULONG sizefile ) ;
 
 /*──────────────────────────────────────────────────────────────────────────*/
 
-LONG	HQRM_Load( UBYTE *name, UWORD index, void **ptrptr )
+LONG	HQRM_Load( UBYTE *name, UWORD index, char **ptrptr )
 {
 	LONG		handle ;
 	UWORD		nbbloc ;

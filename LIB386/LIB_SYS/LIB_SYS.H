@@ -314,7 +314,7 @@ extern	ULONG	Size_HQM_Free ;
 
 LONG	HQM_Init_Memory( ULONG size ) ;
 void	HQM_Clear_Memory() ;
-LONG	HQM_Alloc( ULONG size, void **ptr ) ;
+LONG	HQM_Alloc( ULONG size, char **ptr ) ;
 void	HQM_Free_All() ;
 void	HQM_Free( void *ptr ) ;
 LONG	HQM_Check() ;
@@ -323,7 +323,7 @@ void	HQM_Shrink_Last( void *ptr, ULONG newsize ) ;
 /*──────────────────────────────────────────────────────────────────────*/
 /*				HQ_R_M.C				*/
 
-LONG	HQRM_Load( UBYTE *name, UWORD index, void **ptrptr ) ;
+LONG	HQRM_Load( UBYTE *name, UWORD index, char **ptrptr ) ;
 
 /*──────────────────────────────────────────────────────────────────────*/
 /*				ADELINE.C				*/
