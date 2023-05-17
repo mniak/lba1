@@ -1,5 +1,5 @@
 # name the compiler
-CC = wcc386p
+CC = wcc386
 WL = wlib
 ASM = ml
 

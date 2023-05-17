@@ -1,22 +1,6 @@
 # name the compiler
-!ifdef %HOME
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-WL = c:\watcom\binb\wlib
-!endif
-!else
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-WL = c:\watcom\binb\wlib
-!endif
-!endif
-
+CC = wcc386
+WL = wlib
 ASM = ml
 
 !ifeq WATCOM9 yes
@@ -41,21 +25,21 @@ LIB      = LIB_MENU
 
 $(LIB).LIB: $(OBJETS1) $(OBJETS2) $(OBJETS3) $(OBJETS4)
 
-	@echo $(OBJETS1) > clibmak.rsp
-	@echo $(OBJETS2) >> clibmak.rsp
-#	@echo $(OBJETS3) >> clibmak.rsp
-#	@echo $(OBJETS4) >> clibmak.rsp
+	echo $(OBJETS1) > clibmak.rsp
+	echo $(OBJETS2) >> clibmak.rsp
+#	echo $(OBJETS3) >> clibmak.rsp
+#	echo $(OBJETS4) >> clibmak.rsp
 
-	@$(WL) $(LIBFLAGS) $(LIB) @clibmak.rsp
-	@del clibmak.rsp
-	@prntitre M "$(LIB) OK"
+	$(WL) $(LIBFLAGS) $(LIB) @clibmak.rsp
+	del clibmak.rsp
+	prntitre M "$(LIB) OK"
 
 .asm.obj:
-	@PRNTITRE M "$*.ASM"
-	@$(ASM) $(AFLAGS) $*.ASM
+	PRNTITRE M "$*.ASM"
+	$(ASM) $(AFLAGS) $*.ASM
 
 .c.obj:
-	@PRNTITRE M "$*.C"
-	@$(CC) $(CFLAGS) $*
+	PRNTITRE M "$*.C"
+	$(CC) $(CFLAGS) $*
 
 
