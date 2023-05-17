@@ -1,8 +1,4 @@
-#ifdef	WATCOM9
-	#pragma	library ("f:\projet\lib386\lib_3d\lb9_3d.lib");
-#else
-	#pragma	library ("f:\projet\lib386\lib_3d\lib_3d.lib");
-#endif
+#pragma	library ("f:\projet\lib386\lib_3d\lib_3d.lib")
 
 #define	NORMAL_UNIT	64
 

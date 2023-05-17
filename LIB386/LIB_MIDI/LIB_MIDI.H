@@ -1,8 +1,4 @@
-#ifdef	WATCOM9
-#pragma	library ("f:\projet\lib386\lib_midi\lb9_midi.lib");
-#else
-#pragma	library ("f:\projet\lib386\lib_midi\lib_midi.lib");
-#endif
+#pragma	library ("f:\projet\lib386\lib_midi\lib_midi.lib")
 
 #include "f:\projet\lib386\lib_midi\ail32.h"      // Audio Interface Library API function header
 
