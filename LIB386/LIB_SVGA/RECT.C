@@ -1,6 +1,6 @@
 
-#include "\projet\lib386\lib_sys\adeline.h"
-#include "\projet\lib386\lib_sys\lib_sys.h"
+#include "\lba1\lib386\lib_sys\adeline.h"
+#include "\lba1\lib386\lib_sys\lib_sys.h"
 
 #include <stdio.h>
 #include <dos.h>

@@ -8,7 +8,7 @@
 
 		.data
 
-		include \projet\lib386\lib_sys\lib_sys.ash
+		include \lba1\lib386\lib_sys\lib_sys.ash
 
 Comment @
 

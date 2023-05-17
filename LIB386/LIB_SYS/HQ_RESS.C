@@ -6,7 +6,7 @@
 
 #include "adeline.h"
 #include "lib_sys.h"
-#include "\projet\lib386\lib_samp\lib_wave.h"
+#include "\lba1\lib386\lib_samp\lib_wave.h"
 
 #define	RECOVER_AREA	500
 

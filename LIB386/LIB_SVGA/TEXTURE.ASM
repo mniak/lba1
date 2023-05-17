@@ -7,7 +7,7 @@
 		.model SMALL, SYSCALL
 		.data
 
-	include	\projet\lib386\lib_svga\svga.ash
+	include	\lba1\lib386\lib_svga\svga.ash
 
 	extrn	NoLanguage	TabVerticG	:WORD
 	extrn	NoLanguage	TabCoulG	:WORD

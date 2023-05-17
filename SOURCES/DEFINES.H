@@ -45,14 +45,14 @@
 #include	<conio.h>
 #include	<stdio.h>
 
-#include 	"\projet\lib386\lib_sys\adeline.h"
-#include 	"\projet\lib386\lib_sys\lib_sys.h"
-#include 	"\projet\lib386\lib_svga\lib_svga.h"
-#include 	"\projet\lib386\lib_3D\lib_3D.h"
-#include 	"\projet\lib386\lib_mix\lib_mix.h"
-#include 	"\projet\lib386\lib_samp\lib_wave.h"
-#include 	"\projet\lib386\lib_midi\lib_midi.h"
-#include 	"\projet\lib386\lib_cd\lib_cd.h"
+#include 	"\lba1\lib386\lib_sys\adeline.h"
+#include 	"\lba1\lib386\lib_sys\lib_sys.h"
+#include 	"\lba1\lib386\lib_svga\lib_svga.h"
+#include 	"\lba1\lib386\lib_3D\lib_3D.h"
+#include 	"\lba1\lib386\lib_mix\lib_mix.h"
+#include 	"\lba1\lib386\lib_samp\lib_wave.h"
+#include 	"\lba1\lib386\lib_midi\lib_midi.h"
+#include 	"\lba1\lib386\lib_cd\lib_cd.h"
 
 #include 	"common.h"
 

@@ -55,7 +55,7 @@ $(EXE).exe: $(OBJETS1) $(OBJETS2) $(OBJETS3) $(OBJETS4) $(OBJETS5) $(OBJETS6)
 	del     tempo.obj
 	prntitre M "$(EXE) OK"
 #       wstrip $(EXE)
-	copy $(EXE).exe \projet\lba\game
+	copy $(EXE).exe \lba1\lba\game
 
 .c.obj :
 	PRNTITRE M "$*.C"
