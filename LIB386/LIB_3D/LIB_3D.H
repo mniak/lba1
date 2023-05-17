@@ -1,4 +1,4 @@
-#pragma	library ("c:\lba1\lib386\lib_3d\lib_3d.lib")
+#pragma	library (".\lib_3d.lib")
 
 #define	NORMAL_UNIT	64
 

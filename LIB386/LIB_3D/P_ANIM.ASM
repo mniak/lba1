@@ -15,7 +15,7 @@
 
 		.data
 
-		include	\lba1\lib386\lib_sys\lib_sys.ash
+		include	..\lib_sys\lib_sys.ash
 
 ;*──────────────────────────────────────────────────────────────────────────*
 
