@@ -29,7 +29,7 @@ LFLAGS = -b -n -c -q
 AFLAGS = /Cx /Zm /c /W0 /Sa /DNoLanguage=SYSCALL /Djumps=;
 
 
-OBJETS1  = midi.obj ail32.obj
+OBJETS1  = midi.obj c:\sdks\ail32\obj\ail32.obj
 OBJETS2  =
 OBJETS3  =
 OBJETS4  =
