@@ -17,9 +17,9 @@
 #include <string.h>
 #include <conio.h>
 
-#include "c:\lba1\lib386\lib_sys\adeline.h"
-#include "c:\lba1\lib386\lib_sys\lib_sys.h"
-#include "c:\lba1\lib386\lib_midi\lib_midi.h"
+#include "..\lib_sys\adeline.h"
+#include "..\lib_sys\lib_sys.h"
+#include "..\lib_midi\lib_midi.h"
 
 /***************************************************************/
 

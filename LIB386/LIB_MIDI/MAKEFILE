@@ -1,22 +1,6 @@
 # name the compiler
-!ifdef %HOME
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386p
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-WL = c:\watcom\binb\wlib
-!endif
-!else
-!ifeq WATCOM9 yes
-CC = c:\watcom\bin\wcc386
-WL = c:\watcom\binb\wlib
-!else
-CC = c:\watcom\binb\wcc386
-WL = c:\watcom\binb\wlib
-!endif
-!endif
-
+CC = wcc386
+WL = wlib
 ASM = ml
 
 !ifeq WATCOM9 yes
@@ -29,7 +13,7 @@ LFLAGS = -b -n -c -q
 AFLAGS = /Cx /Zm /c /W0 /Sa /DNoLanguage=SYSCALL /Djumps=;
 
 
-OBJETS1  = midi.obj c:\sdks\ail32\obj\ail32.obj
+OBJETS1  = midi.obj ..\..\..\sdks\ail32\ail32.obj
 OBJETS2  =
 OBJETS3  =
 OBJETS4  =

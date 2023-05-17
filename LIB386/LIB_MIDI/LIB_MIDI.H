@@ -1,4 +1,4 @@
-#pragma	library ("c:\lba1\lib386\lib_midi\lib_midi.lib")
+#pragma	library ("..\lib_midi\lib_midi.lib")
 
 #include <ail32.h>      // Audio Interface Library API function header
 
