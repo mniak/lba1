@@ -3,8 +3,8 @@
 
 */
 
-#include 	"\lba1\lib386\lib_sys\adeline.h"
-#include 	"\lba1\lib386\lib_sys\lib_sys.h"
+#include 	"..\lib_sys\adeline.h"
+#include 	"..\lib_sys\lib_sys.h"
 
 #include <i86.h>
 #include <dos.h>
