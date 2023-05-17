@@ -25,7 +25,7 @@ void	GetDiskEnv( UBYTE *progpath )
 
 void	RestoreDiskEnv()
 {
-	ULONG	total ;
+	UINT	total ;
 
 	_dos_setdrive( OrgDrive, &total ) ;
 	chdir( OrgDir ) ;

@@ -10,7 +10,7 @@ CFLAGS = /oeaxt /zp2 /4s /zq /v /s /DWATCOM9
 !else
 CFLAGS = /oeaxt /zp2 /5s /zq /s
 !endif
-AFLAGS = /Cx /Zm /c /W0 /Sa /DNoLanguage=SYSCALL /Djumps=;
+AFLAGS = /omf /Cx /Zm /c /W0 /Sa /DNoLanguage=SYSCALL /Djumps=;
 LFLAGS = /l=dos4g /x /zq /4s /k7000
 # /d2
 # /"OPTION SYMFILE=LBA.SYM OPTION MAP=LBA.MAP"

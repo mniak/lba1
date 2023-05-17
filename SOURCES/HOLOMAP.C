@@ -129,9 +129,11 @@ void	ComputeCoorGlobe()
 /*──────────────────────────────────────────────────────────────────────────*/
 // compute projection sphere
 
-int z_sort( WORD *a, WORD *b)
+int z_sort( void const *a, void const *b)
 {
-	return( *a - *b ) ;
+	WORD aw = *(const WORD *)a;
+	WORD bw = *(const WORD *)b;
+	return( aw - bw ) ;
 }
 
 void	ComputeGlobeProj()
@@ -141,7 +143,7 @@ void	ComputeGlobeProj()
 	WORD	alpha, beta ;
 
 	ptr = PtrGlobe ;
-	ptrc = (UWORD*)PtrCoorGlobe ;
+	ptrc = (WORD*)PtrCoorGlobe ;
 	ptrt = PtrTri ;
 
 	for( alpha = -256; alpha <= 256; alpha += STEP_ANGLE )
