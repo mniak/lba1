@@ -19,12 +19,12 @@
 /*-------------------------------------------------------------------------*/
 
 #ifdef  LORAN
-#include "c:\lba1\lib386\lib_sys\adeline.h"
-#include "c:\lba1\lib386\lib_sys\lib_sys.h"
-#include "c:\lba1\lib386\lib_svga\lib_svga.h"
-#include "c:\lba1\lib386\lib_menu\lib_menu.h"
-#include "c:\lba1\lib386\lib_cd\lib_cd.h"
-#include "c:\lba1\lib386\lib_3d\lib_3d.h"
+#include "c:..\lib386\lib_sys\adeline.h"
+#include "c:..\lib386\lib_sys\lib_sys.h"
+#include "c:..\lib386\lib_svga\lib_svga.h"
+#include "c:..\lib386\lib_menu\lib_menu.h"
+#include "c:..\lib386\lib_cd\lib_cd.h"
+#include "c:..\lib386\lib_3d\lib_3d.h"
 
 #include        <stdlib.h>
 #include        <string.h>

@@ -15,8 +15,8 @@
 #include <fcntl.h>
 #include <malloc.h>
 
-#include "h:\lba1\lib386\lib_sys\adeline.h"
-#include "h:\lba1\lib386\lib_sys\lib_sys.h"
+#include "h:..\lib386\lib_sys\adeline.h"
+#include "h:..\lib386\lib_sys\lib_sys.h"
 
 struct meminfo {
     unsigned LargestBlockAvail;
