@@ -3,8 +3,8 @@
 			      (c) Adeline 1993
  *ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ*/
 
-#include "\lba1\lib386\lib_sys\adeline.h"
-#include "\lba1\lib386\lib_sys\lib_sys.h"
+#include "..\lib_sys\adeline.h"
+#include "..\lib_sys\lib_sys.h"
 #include	<stdlib.h>
 #include	<stdio.h>
 #include	<dos.h>
