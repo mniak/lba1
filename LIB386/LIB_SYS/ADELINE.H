@@ -6,6 +6,7 @@
 /*──────────────────────────────────────────────────────────────────────────*/
 
 #define	ULONG	unsigned long int
+#define	UINT	unsigned int
 #define	LONG	signed long int
 #define	UWORD	unsigned short int
 #define	WORD	signed short int

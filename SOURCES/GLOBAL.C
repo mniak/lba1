@@ -65,7 +65,7 @@ char	PleaseWait[60] ;
 UBYTE	ProgDrive[_MAX_DRIVE] ;
 UBYTE	ProgDir[_MAX_DIR] ;
 
-ULONG	OrgDrive ;
+UINT	OrgDrive ;
 UBYTE	OrgDir[_MAX_DIR] ;
 
 /*
